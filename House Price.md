@@ -1,6 +1,6 @@
-##  House Price Predict
+##  README
 
-​        本题利用房屋信息数据集对房屋价格进行预测。
+​        利用房屋信息数据集对房屋价格进行预测。
 
 #### 数据处理
 
@@ -48,7 +48,7 @@ $$
 
 #### 结果
 
-​        将相关预测结果上传至网站，成绩为0.24 。![result](C:\Users\asus\Desktop\暑招第一轮测试题\提交文件夹\House_Price\result.png)
+​        将相关预测结果上传至网站，成绩为0.24 。![result](https://github.com/1container/linear_regression/blob/main/result.png)
 
 #### 改进方向
 

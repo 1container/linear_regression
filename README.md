@@ -1,4 +1,4 @@
-公式无法显示，请忽略或下载查看。
+
 ##  House Price
 题目网址：https://www.kaggle.com/c/house-prices-advanced-regression-techniques
 
@@ -42,15 +42,12 @@ allset_ob=pd.get_dummies(allset_ob)
 ​        房屋价格受多重因素影响，可以评估各影响因素对房价的贡献，依次对给出相应信息的房屋预测价格。 本题选用多元线性回归模型，对从上述步骤中提取出的影响因素生成相应向量进行计算。
 
 ​        利用最小二乘法对参数进行估计，相关公式如下。
-$$
-\boldsymbol{\hat\omega^*}=(\bold{X}^T\bold{X})^{-1}\bold{X}^T\bold{y}\\
-f(\hat{\bold{x}}_i)=\hat{\bold{x}}_i^T(\bold{X}^T\bold{X})^{-1}\bold{y}
-$$
-​        其中 $\bold{X}$ 为训练集特征向量，最后一列恒为1，$\bold{y}$ 为训练集中的房屋价格，$\hat{\bold{x}}_i$ 为训练集的特征向量，$f(\hat{\bold{x}}_i)$ 为训练结果。
 
-#### 结果
+$$\boldsymbol{\hat\omega^*}=({X}^T{X})^{-1}{X}^T{y}\\
+f(\hat{{x}}_i)=\hat{{x}}_i^T({X}^T{X})^{-1}{y}$$
 
-​        将相关预测结果上传至网站，成绩为0.24 。![result](https://github.com/1container/linear_regression/blob/main/result.png)
+​        其中 ${X}$ 为训练集特征向量，最后一列恒为1，$\bold{y}$ 为训练集中的房屋价格，$\hat{\bold{x}}_i$ 为训练集的特征向量，$f(\hat{\bold{x}}_i)$ 为训练结果。
+
 
 #### 改进方向
 
